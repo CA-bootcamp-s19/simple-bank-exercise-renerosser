@@ -1,7 +1,10 @@
 module.exports = {
-//   compilers: {
-//     solc: '0.4.25'
-//   },
+  compilers: {
+    solc: {
+      version: '0.4.25',
+      // evmVersion: "petersburg",
+    }
+  },
   networks: {
     development: {
       host: "localhost",
